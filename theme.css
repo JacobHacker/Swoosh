@@ -1,0 +1,97 @@
+
+@font-face {
+	font-family: Akashi;
+	src: url('akashi.ttf');
+}
+
+#logo{
+	color: #d5cf32;
+	font-family: Akashi;
+	font-size: 50;
+	text-shadow: 0 0 .3em black, .1em .1em 0em black, -.1em -.1em 0em black;
+}
+
+body{
+	background: url('background.jpg');
+	color: #d5cf32;
+	margin: 0;
+	margin-right: 2em;
+	margin-left: 2em;
+	margin-bottom: 2em;
+	padding: 0;
+}
+
+/*
+		Colors
+*/
+
+a, #loginbox, .loginButton, .textInput, p, #userbox, body{
+	color: black;
+}
+
+/*
+		Borders
+*/
+#bigbox, .loginButton, #userbox, #loginbox{
+	border: 1px solid black;
+	background: white;
+}
+
+#loginBox{
+	clear:both; position:relative;
+	text-align:center;
+	box-shadow: 0 0 2em #d5cf32;
+	padding: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 20em;
+}
+
+label{
+	text-align: left;
+	float:right;
+}
+
+#floater	{float:left; height:50%; margin-bottom:-120px;}
+
+.register{
+	float: left;
+	margin-left: 1em;
+}
+
+.loginButton{
+	float: right;
+	font-size: 16;
+	margin-right: 1em;
+}
+
+.textInput{
+	border: 1px solid #d5cf32;
+	margin: .5em;
+}
+
+.title{
+	margin: 0;
+	padding: 0;
+	font-size: 30;
+	font-family: Ubuntu;
+}
+
+.fail{
+	color: red;
+	padding: 0;
+	margin: 0;
+}
+
+#userbox{
+	float: right;
+	border-top: none;
+	box-shadow: 0 0 2em #d5cf32;
+	padding: 0.5em;
+}
+
+#bigbox{
+	box-shadow: 0 0 2em #d5cf32;
+	margin-top: 3em;
+	padding: 1em;
+}
