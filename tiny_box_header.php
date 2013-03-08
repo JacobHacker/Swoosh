@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="theme.css">
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
 	</head>
 	<body>
 		<?php include_once("userbox.php"); ?>
