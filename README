@@ -1,0 +1,14 @@
+Setup
+=====
+> mv config.ex.php config.php
+> mv sqlite.ex.sql3 sqlite.sql3
+
+Make sure you edit config.php with the proper values, registration is disabled by default.
+
+Note
+====
+This is not currently usable in a production environment, here is a list of todos:
+* Hash password with bcrypt
+* Check if email is in use
+* Add captchas to login, or after 3 failures
+* Add captcha to registration
